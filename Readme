@@ -1,1 +1,16 @@
+IP Calculator
 
+This project is to help calculate a given IP address the subnet mask, broadcast, and gateway with a given amount of subnetwork is required.
+
+Here is an example of the program:
+
+Please type out the IP Address: 106.86.5.33
+Please enter the amount of subnetwork is required: 256
+Network :  106.86.0.0
+Subnet :  255.255.0.0
+Gateway :  106.86.0.1
+Broadcast :  106.86.255.255
+
+The program can differentiate the class type based off the first octet and will factor that information in.
+
+TODO: Implement a way to have slash notation instead of typing out the require subnetworks.
